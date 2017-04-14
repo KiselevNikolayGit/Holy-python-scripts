@@ -46,7 +46,7 @@ while Work:
             print('\n\n\tNew note')
             Notes = add(Notes)
             write(Notes)
-        elif An == 'c' or An == 'с': #Учитываем оба регистра, спасая от боли
+        elif An == 'c' or An == 'с': #Учитываем оба языка, спасая от боли
             write({})
         else:
             Work = False
