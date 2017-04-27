@@ -35,7 +35,7 @@ Work = True
 while Work:
     Notes = read()
     show(Notes)
-    An = input('type Enter for new note\nor "c" for clear\nor "n" for stop >> ')
+    An = input('type Enter for new note\nor "c" for clear\nor number of note, if you want to del note\nor "n" for stop >> ')
     #Посмотрим не указал ли пользователь число
     try:
         Notes.pop(list(Notes.keys())[int(An) - 1])
