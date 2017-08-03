@@ -1,9 +1,9 @@
-tempo = ".apart-{}-{} [width: {}%;]\n"
+tempo = ".g{}x{} [width: {}%;]\n"
 
 full = ""
 
-for llu in range( 1, 11 ):
-	for rul in range( 1, 11 ):
+for llu in range( 1, 21 ):
+	for rul in range( 1, 21 ):
 		if rul >= llu:
 			rul = float( rul )
 			llu = float( llu )
