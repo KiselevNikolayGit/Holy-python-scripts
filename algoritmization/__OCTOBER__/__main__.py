@@ -1,9 +1,12 @@
 """
+main script
 Sqlite3 using in python3
 By Kiselev Nikolay with love
 """
 
 
-import sqlite3
+from modules.record import Record
 
-print(sqlite3)
+DB = Record()
+
+print("__sas__")
